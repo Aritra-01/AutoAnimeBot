@@ -33,7 +33,7 @@ class AnimeInfo:
 ‣ Language:** `Japanese [ESub]`
 **‣ Quality:** `480p|720p|1080p`
 **‣ Season:** `{}`
-**‣ Episode:** `{}`
+**‣ Episode:** `{}` by 𓆩ÁRîত্র𓆪
 **━━━━━━━━━━━━━━━**
 """
         self.proper_name = self.get_proper_name_for_func(name)
