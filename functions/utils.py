@@ -40,7 +40,7 @@ ABOUT = """
 • **💻 Server**: `{}`
 • **📖 Source Code** : {}
 
-~ **Developer**  __@Kaif_00z __
+~ **Developer**  __𓆩ÁRîত্র𓆪 __
 """
 
 
@@ -174,6 +174,6 @@ class AdminUtils:
             self.telethon_version,
             self.pyrogram_version,
             self.system,
-            "[OngoingAnimeBot](https://github.com/Kaif-00z/AutoAnimeBot)",
+            "[𓆩ÁRîত্র𓆪](https://github.com/)",
         )
         await e.reply(text, file="assest/about.jpg", link_preview=False)
