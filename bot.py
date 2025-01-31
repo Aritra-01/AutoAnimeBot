@@ -56,7 +56,7 @@ async def _start(event):
             pass
         else:
             return await xnx.edit(
-                f"**Please Join The Following Channel To Use This Bot🫡**",
+                f"**Please Join The Following Channel To Use This Bot 🫡**",
                 buttons=[
                     [Button.url("🚀 JOIN CHANNEL", url=Var.FORCESUB_CHANNEL_LINK)],
                     [
