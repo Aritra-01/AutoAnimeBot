@@ -36,7 +36,7 @@ class AnimeInfo:
 **♡ 𝗤𝘂𝗮𝗹𝗶𝘁𝘆:** `480p|720p|1080p`
 **❦ 𝗦𝗲𝗮𝘀𝗼𝗻:** `{}`
 **❍ 𝗘𝗽𝗶𝘀𝗼𝗱𝗲:** `{}`
-**╚━━━━━━━━━━━━━━━━━━━━━━━╝**
+**╚━━━━━━━━━━━━━━━━━━━━━━━╝
 """
         self.proper_name = self.get_proper_name_for_func(name)
         self.name = name
@@ -90,7 +90,7 @@ class AnimeInfo:
             anime_name = self.data.get("anime_title")
             if anime_name and self.data.get("episode_number"):
                 return (
-                    f"[S{self.data.get('anime_season') or 1}-E{self.data.get('episode_number') or ''}] {(await self.get_english())} [{self.data.get('video_resolution')}].mkv".replace(
+                    f"[S0{self.data.get('anime_season') or 1}E{self.data.get('episode_number') or ''}] {(await self.get_english())} [{self.data.get('video_resolution')}]~𓆩ÁRîত্র𓆪.mkv".replace(
                         "‘", ""
                     )
                     .replace("’", "")
@@ -98,7 +98,7 @@ class AnimeInfo:
                 )
             if anime_name:
                 return (
-                    f"{(await self.get_english())} [{self.data.get('video_resolution')}].mkv".replace(
+                    f"{(await self.get_english())} [{self.data.get('video_resolution')}]~𓆩ÁRîত্র𓆪.mkv".replace(
                         "‘", ""
                     )
                     .replace("’", "")
