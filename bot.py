@@ -87,10 +87,10 @@ async def _start(event):
             f"**Enjoy Ongoing Anime's Best Encode 24/7 🫡**",
             buttons=[
                 [
-                    Button.url("👨‍💻 DEV", url="t.me/AritraSpeaketh"),
+                    Button.url("👨‍💻 MY DEV", url="t.me/AritraSpeaketh"),
                     Button.url(
-                        "💖 PRIVATE",
-                        url="https://github.com/",
+                        "💖 INDEX",
+                        url="https://t.me/+yJz7bzRA3BgzMTA9",
                     ),
                 ]
             ],
