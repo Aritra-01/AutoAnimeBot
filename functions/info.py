@@ -28,14 +28,14 @@ class AnimeInfo:
     def __init__(self, name):
         self.kitsu = RawAnimeInfo()
         self.CAPTION = """
-**<blockquote>{}</blockquote>
+**{}
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-<blockquote>**⌲ 𝗧𝘆𝗽𝗲:** `TV`
-**❐ 𝗦𝘁𝗮𝘁𝘂𝘀:** `RELEASING`</blockquote>
-<blockquote>**〄 𝗔𝘂𝗱𝗶𝗼:** `Japanese [ESub]`
-**♡ Quality:** `480p|720p|1080p`</blockquote>
-<blockquote>**❦ 𝗦𝗲𝗮𝘀𝗼𝗻:** `{}`
-**❍ 𝗘𝗽𝗶𝘀𝗼𝗱𝗲:** `{}`</blockquote>
+**⌲ 𝗧𝘆𝗽𝗲:** `TV`
+**❐ 𝗦𝘁𝗮𝘁𝘂𝘀:** `RELEASING`
+**〄 𝗔𝘂𝗱𝗶𝗼:** `Japanese [ESub]`
+**♡ Quality:** `480p|720p|1080p`
+**❦ 𝗦𝗲𝗮𝘀𝗼𝗻:** `{}`
+**❍ 𝗘𝗽𝗶𝘀𝗼𝗱𝗲:** `{}'
 **╚━━━━━━━━━━━━━━━━━━━━━━━━━━━╝**
 """
         self.proper_name = self.get_proper_name_for_func(name)
