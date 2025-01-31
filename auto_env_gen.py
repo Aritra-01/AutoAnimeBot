@@ -66,7 +66,7 @@ async def create_channel(client, title):
         r = await client(
             CreateChannelRequest(
                 title=title,
-                about="Made By https://github.com/kaif-00z/AutoAnimeBot",
+                about="Made By 𓆩ÁRîত্র𓆪",
                 megagroup=False,
             )
         )
