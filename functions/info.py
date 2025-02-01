@@ -98,7 +98,7 @@ class AnimeInfo:
                 )
             if anime_name:
                 return (
-                    f"{(await self.get_english())} [{self.data.get('video_resolution')}]~𓆩ÁRîত্র𓆪.mkv".replace(
+                    f"{(await self.get_english())} [{self.data.get('video_resolution')}].mkv".replace(
                         "‘", ""
                     )
                     .replace("’", "")
