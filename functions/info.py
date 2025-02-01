@@ -90,7 +90,7 @@ class AnimeInfo:
             anime_name = self.data.get("anime_title")
             if anime_name and self.data.get("episode_number"):
                 return (
-                    f"[S{self.data.get('anime_season') or 1}-E{self.data.get('episode_number') or ''}] {(await self.get_english())} [{self.data.get('video_resolution')}]~𓆩ÁRîত্র𓆪.mkv".replace(
+                    f"[S{self.data.get('anime_season') or 1}-E{self.data.get('episode_number') or ''}] {(await self.get_english())} [{self.data.get('video_resolution')}].mkv".replace(
                         "‘", ""
                     )
                     .replace("’", "")
